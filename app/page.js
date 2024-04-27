@@ -30,10 +30,10 @@ function App() {
     setColor(newColor);
   }
   return (
-    <>
+    <div className="main-container">
       <div style={{ background: color }} className="background"></div>
       <UserInterface color={color} changeClr={changeColor} />
-    </>
+    </div>
   );
 }
 
